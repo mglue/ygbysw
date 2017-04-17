@@ -102,6 +102,24 @@ function is_time($time)
 }
 
 /**
+ * 检查是否为一个合法的移动手机号
+ * @access public
+ * @param $mobile_phone
+ * @return bool
+ */
+function is_mobile_phone($mobile_phone){
+    $pattern = '/^1[34578]\d{9}$/';
+    if (preg_match($pattern, $mobile_phone))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+
+}
+/**
  * 获得查询时间和次数，并赋值给smarty
  *
  * @access  public
