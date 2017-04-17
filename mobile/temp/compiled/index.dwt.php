@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="themesmobile/68ecshopcom_mobile/css/68ecshop.css"/>
 <link rel="stylesheet" href="themesmobile/68ecshopcom_mobile/fonts/font-awesome.min.css">
 <link href="<?php echo $this->_var['ecs_css_path']; ?>" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="themesmobile/68ecshopcom_mobile/js/jquery.js"></script>
+<script type="text/javascript" src="themesmobile/68ecshopcom_mobile/js/jquery.min.js"></script>
 <?php echo $this->smarty_insert_scripts(array('files'=>'jquery.json.js,transport.js')); ?>
 <?php echo $this->smarty_insert_scripts(array('files'=>'common.js')); ?>
 </head>

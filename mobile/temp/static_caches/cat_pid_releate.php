@@ -58,20 +58,6 @@ $data = array (
   ),
   4 => 
   array (
-    'cat_id' => '22',
-    'cat_name' => '厨房',
-    'measure_unit' => '',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '5',
-    'type_img' => '',
-    'goods_num' => 0,
-  ),
-  5 => 
-  array (
     'cat_id' => '1',
     'cat_name' => '卧房',
     'measure_unit' => '',
@@ -79,6 +65,20 @@ $data = array (
     'is_show' => '1',
     'show_in_nav' => '1',
     'grade' => '5',
+    'sort_order' => '50',
+    'has_children' => '5',
+    'type_img' => '',
+    'goods_num' => 0,
+  ),
+  5 => 
+  array (
+    'cat_id' => '22',
+    'cat_name' => '厨房',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
     'sort_order' => '50',
     'has_children' => '5',
     'type_img' => '',
@@ -100,11 +100,11 @@ $data = array (
   ),
   7 => 
   array (
-    'cat_id' => '23',
-    'cat_name' => '运动户外',
+    'cat_id' => '62',
+    'cat_name' => '建材',
     'measure_unit' => '',
     'parent_id' => '0',
-    'is_show' => '0',
+    'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
@@ -114,11 +114,11 @@ $data = array (
   ),
   8 => 
   array (
-    'cat_id' => '62',
-    'cat_name' => '建材',
+    'cat_id' => '23',
+    'cat_name' => '运动户外',
     'measure_unit' => '',
     'parent_id' => '0',
-    'is_show' => '1',
+    'is_show' => '0',
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
@@ -268,8 +268,8 @@ $data = array (
   ),
   19 => 
   array (
-    'cat_id' => '95',
-    'cat_name' => '测试数据9',
+    'cat_id' => '58',
+    'cat_name' => '测试数据1',
     'measure_unit' => '',
     'parent_id' => '2',
     'is_show' => '1',
@@ -282,8 +282,8 @@ $data = array (
   ),
   20 => 
   array (
-    'cat_id' => '58',
-    'cat_name' => '测试数据1',
+    'cat_id' => '95',
+    'cat_name' => '测试数据9',
     'measure_unit' => '',
     'parent_id' => '2',
     'is_show' => '1',
@@ -394,8 +394,8 @@ $data = array (
   ),
   28 => 
   array (
-    'cat_id' => '53',
-    'cat_name' => '测试数据1',
+    'cat_id' => '55',
+    'cat_name' => '测试数据3',
     'measure_unit' => '',
     'parent_id' => '4',
     'is_show' => '1',
@@ -408,8 +408,8 @@ $data = array (
   ),
   29 => 
   array (
-    'cat_id' => '54',
-    'cat_name' => '测试数据2',
+    'cat_id' => '53',
+    'cat_name' => '测试数据1',
     'measure_unit' => '',
     'parent_id' => '4',
     'is_show' => '1',
@@ -422,8 +422,8 @@ $data = array (
   ),
   30 => 
   array (
-    'cat_id' => '55',
-    'cat_name' => '测试数据3',
+    'cat_id' => '54',
+    'cat_name' => '测试数据2',
     'measure_unit' => '',
     'parent_id' => '4',
     'is_show' => '1',
@@ -506,20 +506,6 @@ $data = array (
   ),
   36 => 
   array (
-    'cat_id' => '11',
-    'cat_name' => '榻榻米',
-    'measure_unit' => '',
-    'parent_id' => '6',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'type_img' => '',
-    'goods_num' => '2',
-  ),
-  37 => 
-  array (
     'cat_id' => '71',
     'cat_name' => '多功能床',
     'measure_unit' => '',
@@ -531,6 +517,20 @@ $data = array (
     'has_children' => '0',
     'type_img' => '',
     'goods_num' => 0,
+  ),
+  37 => 
+  array (
+    'cat_id' => '11',
+    'cat_name' => '榻榻米',
+    'measure_unit' => '',
+    'parent_id' => '6',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'type_img' => '',
+    'goods_num' => '2',
   ),
   38 => 
   array (
@@ -674,8 +674,8 @@ $data = array (
   ),
   48 => 
   array (
-    'cat_id' => '14',
-    'cat_name' => '移动手机充值卡',
+    'cat_id' => '13',
+    'cat_name' => '小灵通/固话充值卡',
     'measure_unit' => '',
     'parent_id' => '12',
     'is_show' => '0',
@@ -688,8 +688,8 @@ $data = array (
   ),
   49 => 
   array (
-    'cat_id' => '15',
-    'cat_name' => '联通手机充值卡',
+    'cat_id' => '14',
+    'cat_name' => '移动手机充值卡',
     'measure_unit' => '',
     'parent_id' => '12',
     'is_show' => '0',
@@ -702,8 +702,8 @@ $data = array (
   ),
   50 => 
   array (
-    'cat_id' => '13',
-    'cat_name' => '小灵通/固话充值卡',
+    'cat_id' => '15',
+    'cat_name' => '联通手机充值卡',
     'measure_unit' => '',
     'parent_id' => '12',
     'is_show' => '0',
@@ -758,8 +758,8 @@ $data = array (
   ),
   54 => 
   array (
-    'cat_id' => '30',
-    'cat_name' => '床组合',
+    'cat_id' => '68',
+    'cat_name' => '上下床组合',
     'measure_unit' => '',
     'parent_id' => '20',
     'is_show' => '1',
@@ -772,8 +772,8 @@ $data = array (
   ),
   55 => 
   array (
-    'cat_id' => '68',
-    'cat_name' => '上下床组合',
+    'cat_id' => '30',
+    'cat_name' => '床组合',
     'measure_unit' => '',
     'parent_id' => '20',
     'is_show' => '1',
@@ -814,6 +814,20 @@ $data = array (
   ),
   58 => 
   array (
+    'cat_id' => '73',
+    'cat_name' => '针织衫',
+    'measure_unit' => '',
+    'parent_id' => '21',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'type_img' => '',
+    'goods_num' => 0,
+  ),
+  59 => 
+  array (
     'cat_id' => '77',
     'cat_name' => '沙发茶几组合',
     'measure_unit' => '',
@@ -826,7 +840,7 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  59 => 
+  60 => 
   array (
     'cat_id' => '74',
     'cat_name' => '餐桌组合',
@@ -840,7 +854,7 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  60 => 
+  61 => 
   array (
     'cat_id' => '33',
     'cat_name' => '餐柜组合',
@@ -854,7 +868,7 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  61 => 
+  62 => 
   array (
     'cat_id' => '78',
     'cat_name' => '吧台组合',
@@ -868,7 +882,7 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  62 => 
+  63 => 
   array (
     'cat_id' => '75',
     'cat_name' => '隔断柜组合',
@@ -882,7 +896,7 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  63 => 
+  64 => 
   array (
     'cat_id' => '34',
     'cat_name' => '羽绒服',
@@ -896,24 +910,10 @@ $data = array (
     'type_img' => '',
     'goods_num' => 0,
   ),
-  64 => 
+  65 => 
   array (
     'cat_id' => '76',
     'cat_name' => '牛仔裤',
-    'measure_unit' => '',
-    'parent_id' => '21',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'type_img' => '',
-    'goods_num' => 0,
-  ),
-  65 => 
-  array (
-    'cat_id' => '73',
-    'cat_name' => '针织衫',
     'measure_unit' => '',
     'parent_id' => '21',
     'is_show' => '0',
@@ -996,8 +996,8 @@ $data = array (
   ),
   71 => 
   array (
-    'cat_id' => '38',
-    'cat_name' => '运动包',
+    'cat_id' => '37',
+    'cat_name' => '运动鞋',
     'measure_unit' => '',
     'parent_id' => '23',
     'is_show' => '1',
@@ -1010,8 +1010,8 @@ $data = array (
   ),
   72 => 
   array (
-    'cat_id' => '37',
-    'cat_name' => '运动鞋',
+    'cat_id' => '38',
+    'cat_name' => '运动包',
     'measure_unit' => '',
     'parent_id' => '23',
     'is_show' => '1',
@@ -1052,8 +1052,8 @@ $data = array (
   ),
   75 => 
   array (
-    'cat_id' => '91',
-    'cat_name' => '测试数据1',
+    'cat_id' => '93',
+    'cat_name' => '测试数据3',
     'measure_unit' => '',
     'parent_id' => '69',
     'is_show' => '1',
@@ -1066,8 +1066,8 @@ $data = array (
   ),
   76 => 
   array (
-    'cat_id' => '92',
-    'cat_name' => '测试数据2',
+    'cat_id' => '91',
+    'cat_name' => '测试数据1',
     'measure_unit' => '',
     'parent_id' => '69',
     'is_show' => '1',
@@ -1080,8 +1080,8 @@ $data = array (
   ),
   77 => 
   array (
-    'cat_id' => '93',
-    'cat_name' => '测试数据3',
+    'cat_id' => '92',
+    'cat_name' => '测试数据2',
     'measure_unit' => '',
     'parent_id' => '69',
     'is_show' => '1',

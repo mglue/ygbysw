@@ -1,18 +1,18 @@
-<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:60:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/index.dwt";i:1;s:71:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/index_ad.lbi";i:2;s:73:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/index_icon.lbi";i:3;s:74:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/ad_position.lbi";i:4;s:76:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_hot.lbi";i:5;s:76:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_new.lbi";i:6;s:82:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_promotion.lbi";i:7;s:72:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/cat_goods.lbi";i:8;s:74:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/page_footer.lbi";}s:7:"expires";i:1492346679;s:8:"maketime";i:1492343079;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:60:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/index.dwt";i:1;s:71:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/index_ad.lbi";i:2;s:73:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/index_icon.lbi";i:3;s:74:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/ad_position.lbi";i:4;s:76:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_hot.lbi";i:5;s:76:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_new.lbi";i:6;s:82:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/recommend_promotion.lbi";i:7;s:72:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/cat_goods.lbi";i:8;s:74:"D:/wamp/www/mobile/themesmobile/68ecshopcom_mobile/library/page_footer.lbi";}s:7:"expires";i:1492365722;s:8:"maketime";i:1492362122;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>ecshop开发中心  </title>
-<meta name="Keywords" content="ecshop开发中心" />
-<meta name="Description" content="ecshop开发中心" />
+<title>阳光博洋商务  </title>
+<meta name="Keywords" content="阳光博洋商务" />
+<meta name="Description" content="阳光博洋商务" />
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 <script type="text/javascript" src="themesmobile/68ecshopcom_mobile/js/TouchSlide.1.1.js"></script>
 <link rel="stylesheet" type="text/css" href="themesmobile/68ecshopcom_mobile/css/68ecshop.css"/>
 <link rel="stylesheet" href="themesmobile/68ecshopcom_mobile/fonts/font-awesome.min.css">
 <link href="themesmobile/68ecshopcom_mobile/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="themesmobile/68ecshopcom_mobile/js/jquery.js"></script>
+<script type="text/javascript" src="themesmobile/68ecshopcom_mobile/js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.json.js"></script><script type="text/javascript" src="js/transport.js"></script><script type="text/javascript" src="js/common.js"></script></head>
 <body>
 <div id="wrapper" >
@@ -20,7 +20,7 @@
     <header class='header'>
     <a href="catalog.php" class="top_bt">首页</a>
     <div class="tit" style="">
-      <h3>ECSHOP开发中心</h3>
+      <h3>阳光博洋商务</h3>
     </div>
     <div class="nav">
       <ul>
@@ -143,16 +143,23 @@ box-shadow: 0 0 2px #ccc; }
      <p> <ul>  
                      <li class="hproduct">
                 <div class="url">
-                    <a class="photo" href="goods.php?id=10"><img src="../images/201405/thumb_img/10_thumb_G_1399963234065.jpg" width="80"></a>
-                    <a class="fn"href="goods.php?id=10">ECSHOP模板中心...</a><p class="price">本店价：￥1250          </p><del class="old_price">原　价：￥1594</del>
-                       <a href="javascript:addToCart(10)" class="btn">立即购买</a>
+                    <a class="photo" href="goods.php?id=14"><img src="../images/201405/thumb_img/14_thumb_G_1399963309409.jpg" width="80"></a>
+                    <a class="fn"href="goods.php?id=14">ECSHOP模板中心...</a><p class="price">本店价：￥2625</p><del class="old_price">原　价：￥3150</del>
+                       <a href="javascript:addToCart(14)" class="btn">立即购买</a>
                   </div>             
                 </li>          
                         <li class="hproduct">
                 <div class="url">
-                    <a class="photo" href="goods.php?id=1"><img src="../images/201405/thumb_img/1_thumb_G_1399962983973.jpg" width="80"></a>
-                    <a class="fn"href="goods.php?id=1">ECSHOP模板中心...</a><p class="price">本店价：￥1388</p><del class="old_price">原　价：￥1666</del>
-                       <a href="javascript:addToCart(1)" class="btn">立即购买</a>
+                    <a class="photo" href="goods.php?id=13"><img src="../images/201405/thumb_img/13_thumb_G_1399963013189.jpg" width="80"></a>
+                    <a class="fn"href="goods.php?id=13">ECSHOP模板中心...</a><p class="price">本店价：￥1311</p><del class="old_price">原　价：￥1573</del>
+                       <a href="javascript:addToCart(13)" class="btn">立即购买</a>
+                  </div>             
+                </li>          
+                        <li class="hproduct">
+                <div class="url">
+                    <a class="photo" href="goods.php?id=23"><img src="../images/201405/thumb_img/23_thumb_G_1399962927636.jpg" width="80"></a>
+                    <a class="fn"href="goods.php?id=23">ECSHOP模板中心...</a><p class="price">本店价：￥3700</p><del class="old_price">原　价：￥4440</del>
+                       <a href="javascript:addToCart(23)" class="btn">立即购买</a>
                   </div>             
                 </li>          
                         <li class="hproduct">
@@ -160,13 +167,6 @@ box-shadow: 0 0 2px #ccc; }
                     <a class="photo" href="goods.php?id=32"><img src="../images/201405/thumb_img/32_thumb_G_1399962881763.jpg" width="80"></a>
                     <a class="fn"href="goods.php?id=32">ECSHOP模板中心...</a><p class="price">本店价：￥2750          </p><del class="old_price">原　价：￥3612</del>
                        <a href="javascript:addToCart(32)" class="btn">立即购买</a>
-                  </div>             
-                </li>          
-                        <li class="hproduct">
-                <div class="url">
-                    <a class="photo" href="goods.php?id=24"><img src="../images/201405/thumb_img/24_thumb_G_1399962854067.jpg" width="80"></a>
-                    <a class="fn"href="goods.php?id=24">ECSHOP模板中心...</a><p class="price">本店价：￥1850          </p><del class="old_price">原　价：￥2400</del>
-                       <a href="javascript:addToCart(24)" class="btn">立即购买</a>
                   </div>             
                 </li>          
                   </ul></p>
@@ -232,13 +232,6 @@ box-shadow: 0 0 2px #ccc; }
                 </li>          
                         <li class="hproduct">
                 <div class="url">
-                    <a class="photo" href="goods.php?id=12"><img src="../images/201405/thumb_img/12_thumb_G_1399962907989.jpg" width="80"></a>
-                    <a class="fn"href="goods.php?id=12">ECSHOP模板中心...</a><p class="price">本店价：￥960          </p><del class="old_price">原　价：￥1180</del>
-                    <a href="javascript:addToCart(12)" class="btn">立即购买</a>
-                  </div>             
-                </li>          
-                        <li class="hproduct">
-                <div class="url">
                     <a class="photo" href="goods.php?id=10"><img src="../images/201405/thumb_img/10_thumb_G_1399963234065.jpg" width="80"></a>
                     <a class="fn"href="goods.php?id=10">ECSHOP模板中心...</a><p class="price">本店价：￥1250          </p><del class="old_price">原　价：￥1594</del>
                     <a href="javascript:addToCart(10)" class="btn">立即购买</a>
@@ -249,6 +242,13 @@ box-shadow: 0 0 2px #ccc; }
                     <a class="photo" href="goods.php?id=8"><img src="../images/201405/thumb_img/8_thumb_G_1399951905746.jpg" width="80"></a>
                     <a class="fn"href="goods.php?id=8">ECSHOP模板中心...</a><p class="price">本店价：￥385          </p><del class="old_price">原　价：￥479</del>
                     <a href="javascript:addToCart(8)" class="btn">立即购买</a>
+                  </div>             
+                </li>          
+                        <li class="hproduct">
+                <div class="url">
+                    <a class="photo" href="goods.php?id=12"><img src="../images/201405/thumb_img/12_thumb_G_1399962907989.jpg" width="80"></a>
+                    <a class="fn"href="goods.php?id=12">ECSHOP模板中心...</a><p class="price">本店价：￥960          </p><del class="old_price">原　价：￥1180</del>
+                    <a href="javascript:addToCart(12)" class="btn">立即购买</a>
                   </div>             
                 </li>          
                         <li class="hproduct">
@@ -287,7 +287,7 @@ box-shadow: 0 0 2px #ccc; }
             </dt>
             <dd><span class="pull-left"><span>价格:<b class="ect-colory"> 
             ￥1337</b></span><small class="ect-margin-lr" style="display:none"><del>￥1604</del></small></span><span class="ect-pro-price"></span></dd>
-            <dd><span class="pull-left"><i class="fa fa-eye"></i>19人浏览</span></dd>
+            <dd><span class="pull-left"><i class="fa fa-eye"></i>20人浏览</span></dd>
       </dl>
         </div>
         </a> </div></div>
@@ -314,7 +314,7 @@ box-shadow: 0 0 2px #ccc; }
             </dt>
             <dd><span class="pull-left"><span>价格:<b class="ect-colory"> 
             ￥3700</b></span><small class="ect-margin-lr" style="display:none"><del>￥4440</del></small></span><span class="ect-pro-price"></span></dd>
-            <dd><span class="pull-left"><i class="fa fa-eye"></i>56人浏览</span></dd>
+            <dd><span class="pull-left"><i class="fa fa-eye"></i>57人浏览</span></dd>
       </dl>
         </div>
         </a> </div></div>
@@ -328,7 +328,7 @@ box-shadow: 0 0 2px #ccc; }
             </dt>
             <dd><span class="pull-left"><span>价格:<b class="ect-colory"> 
             ￥5999</b></span><small class="ect-margin-lr" style="display:none"><del>￥7199</del></small></span><span class="ect-pro-price"></span></dd>
-            <dd><span class="pull-left"><i class="fa fa-eye"></i>37人浏览</span></dd>
+            <dd><span class="pull-left"><i class="fa fa-eye"></i>38人浏览</span></dd>
       </dl>
         </div>
         </a> </div></div>
@@ -374,7 +374,7 @@ box-shadow: 0 0 2px #ccc; }
 <a href="#top" class="u-backtop" id="goTop"><span class="u-icon i-backtop"></span></a>
 <script>
         window.addEventListener("DOMContentLoaded", function () {
-            btn = document.getElementById("info-nr-btn");
+            var btn = document.getElementById("info-nr-btn");
             btn.onclick = function () {
                 var divs = document.getElementById("info-nr-phone").querySelectorAll("div");
                 var className = className = this.checked ? "on" : "";
@@ -403,7 +403,7 @@ function mall_search(){
 		h = $(window).height();
 		t = $(document).scrollTop();
 		t > h ? $("#goTop").fadeIn() : $("#goTop").fadeOut();
-	});	
+	});
 }
 mall_search();
 </script> 

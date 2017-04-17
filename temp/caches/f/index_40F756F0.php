@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:38:"D:/wamp/www/themes/yiguofree/index.dwt";i:1;s:58:"D:/wamp/www/themes/yiguofree/library/page_header_index.lbi";i:2;s:50:"D:/wamp/www/themes/yiguofree/library/index_ad3.lbi";i:3;s:53:"D:/wamp/www/themes/yiguofree/library/cat_articles.lbi";i:4;s:52:"D:/wamp/www/themes/yiguofree/library/ad_position.lbi";i:5;s:60:"D:/wamp/www/themes/yiguofree/library/recommend_promotion.lbi";i:6;s:54:"D:/wamp/www/themes/yiguofree/library/recommend_hot.lbi";i:7;s:55:"D:/wamp/www/themes/yiguofree/library/recommend_best.lbi";i:8;s:54:"D:/wamp/www/themes/yiguofree/library/recommend_new.lbi";i:9;s:50:"D:/wamp/www/themes/yiguofree/library/cat_goods.lbi";i:10;s:52:"D:/wamp/www/themes/yiguofree/library/page_footer.lbi";}s:7:"expires";i:1492345981;s:8:"maketime";i:1492342381;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:38:"D:/wamp/www/themes/yiguofree/index.dwt";i:1;s:58:"D:/wamp/www/themes/yiguofree/library/page_header_index.lbi";i:2;s:50:"D:/wamp/www/themes/yiguofree/library/index_ad3.lbi";i:3;s:53:"D:/wamp/www/themes/yiguofree/library/cat_articles.lbi";i:4;s:52:"D:/wamp/www/themes/yiguofree/library/ad_position.lbi";i:5;s:60:"D:/wamp/www/themes/yiguofree/library/recommend_promotion.lbi";i:6;s:54:"D:/wamp/www/themes/yiguofree/library/recommend_hot.lbi";i:7;s:55:"D:/wamp/www/themes/yiguofree/library/recommend_best.lbi";i:8;s:54:"D:/wamp/www/themes/yiguofree/library/recommend_new.lbi";i:9;s:50:"D:/wamp/www/themes/yiguofree/library/cat_goods.lbi";i:10;s:52:"D:/wamp/www/themes/yiguofree/library/page_footer.lbi";}s:7:"expires";i:1492364094;s:8:"maketime";i:1492360494;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -909,7 +909,8 @@ a:hover {
     
      
   </div>
-</div> </div>
+</div>
+ </div>
 <div class="block1 "> 
 <div class="blank1">
   <div style="clearfix">
@@ -926,7 +927,7 @@ a:hover {
   </div>
 </div>
  </div>
-<DIV class=footer>
+ <DIV class=footer>
 <DIV class=helper>
 <DIV class=devide_line>
 </DIV>

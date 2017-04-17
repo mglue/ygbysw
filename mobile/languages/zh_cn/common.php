@@ -15,7 +15,7 @@
 
 /* 用户登录语言项 */
 $_LANG['empty_username_password'] = '对不起，您必须完整填写用户名和密码。';
-$_LANG['shot_message'] = "短消息";
+$_LANG['shot_message'] = '短消息';
 
 /* 公共语言项 */
 $_LANG['sys_msg'] = '系统提示';
@@ -25,6 +25,7 @@ $_LANG['user_center'] = '用户中心';
 $_LANG['shop_closed'] = '本店盘点中，请您稍后再来...';
 $_LANG['shop_register_closed'] = '该网店暂停注册';
 $_LANG['shop_upgrade'] = "本店升级中，管理员从 <a href=\"admin/\">管理中心</a> 登录后，系统会自动完成升级";
+$_LANG['shop_name']='阳光博洋商务';
 $_LANG['js_languages']['process_request'] = '正在处理您的请求...';
 $_LANG['process_request'] = '正在处理您的请求...';
 $_LANG['please_waiting'] = '请稍等, 正在载入中...';
@@ -739,7 +740,6 @@ $_LANG['divided_into'] = '分成规则';
 $_LANG['article_detail'] = '文章详情';
 $_LANG['brand_list'] = '品牌列表';
 $_LANG['cart']='购物车';
-$_LANG['shop_name']='ECSHOP开发中心';
 $_LANG['my_order']='我的订单';
 $_LANG['address_list']='地址管理';
 $_LANG['pay_manage']='资金管理';

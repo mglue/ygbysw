@@ -28,7 +28,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 
 <script>
         window.addEventListener("DOMContentLoaded", function () {
-            btn = document.getElementById("info-nr-btn");
+            var btn = document.getElementById("info-nr-btn");
             btn.onclick = function () {
                 var divs = document.getElementById("info-nr-phone").querySelectorAll("div");
                 var className = className = this.checked ? "on" : "";
@@ -37,6 +37,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
                 }
                 document.getElementById("jisou-info").style.display = "on" == className ? "block" : "none";
             }
+
         }, false);
     </script>
 <script>
@@ -57,7 +58,7 @@ function mall_search(){
 		h = $(window).height();
 		t = $(document).scrollTop();
 		t > h ? $("#goTop").fadeIn() : $("#goTop").fadeOut();
-	});	
+	});
 }
 mall_search();
 </script>
