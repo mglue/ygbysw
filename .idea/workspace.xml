@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05363200-063e-4cb8-9e0b-768e3225844b" name="Default" comment="修复构造函数位置">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cardimg/1242108754847457261.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/packimg/1242108360911825791.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/temp/compiled/admin/language_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/temp/compiled/admin/message.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/temp/compiled/admin/pagefooter.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/temp/compiled/admin/pageheader.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/0/index_E6805D44.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/4/category_9FA01881.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/b/category_1A583A4E.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/f/index_40F756F0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/card_info.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/card_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/comment_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/convert_main.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/db_backup.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/delivery_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/drag.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_info.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_search.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/index.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/language_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/login.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/menu.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/optimize.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/order_goods_info.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/order_info.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/order_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/order_operate.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/pack_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/reg_field_info.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/reg_fields.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/shipping_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/start.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/top.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/user_account_check.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/user_account_list.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/user_account_manage.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/category.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/category_tree.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_list.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/history.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/pages.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/promotion_info.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/top10.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/user_transaction.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/cloud_remind.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/recommend_goods.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/listtable.js" afterPath="$PROJECT_DIR$/admin/js/listtable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/temp/query_caches/sqlcache_config_file_0856bed3f03ee61c05aeb383f40823d5.php" afterPath="$PROJECT_DIR$/mobile/temp/query_caches/sqlcache_config_file_0856bed3f03ee61c05aeb383f40823d5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/users_list.htm.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/users_list.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/cat_goods.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/index_ad3.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/index_ad3.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/page_footer.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/page_footer.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/recommend_best.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/recommend_best.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/recommend_hot.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/recommend_hot.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/recommend_new.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/recommend_new.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_5e2a15f565082a327468016ef0dfed68.php" afterPath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_5e2a15f565082a327468016ef0dfed68.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/cat_option_static.php" afterPath="$PROJECT_DIR$/temp/static_caches/cat_option_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/cat_pid_releate.php" afterPath="$PROJECT_DIR$/temp/static_caches/cat_pid_releate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/shop_config.php" afterPath="$PROJECT_DIR$/temp/static_caches/shop_config.php" />
+    </list>
+    <ignored path="www.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="www" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="users_list.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/templates/users_list.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc_constant.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/inc_constant.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5219">
+              <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+              <folding>
+                <marker date="1492401369531" expanded="true" signature="4425:4566" placeholder="SELECT regio... ${$GLOBALS['ecs']-&gt;table('region')}" />
+                <marker date="1492401369531" expanded="true" signature="4806:4911" placeholder="SELECT confi... ${$GLOBALS['ecs']-&gt;table('shipping_area')}" />
+                <marker date="1492401369531" expanded="true" signature="15296:15385" placeholder="SELECT code,... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+                <marker date="1492401369531" expanded="true" signature="19369:19461" placeholder="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+                <marker date="1492401369531" expanded="true" signature="21434:21617" placeholder="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+                <marker date="1492401369531" expanded="true" signature="24128:24314" placeholder="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('favourable_activity')}" />
+                <marker date="1492401369531" expanded="true" signature="25053:25160" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+                <marker date="1492401369531" expanded="true" signature="29517:29655" placeholder="SELECT templ... ${$GLOBALS['ecs']-&gt;table('mail_templates')}" />
+                <marker date="1492401369531" expanded="true" signature="30267:30698" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('order_action')}... " />
+                <marker date="1492401369531" expanded="true" signature="30463:30698" placeholder="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+                <marker date="1492401369531" expanded="true" signature="32298:32486" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+                <marker date="1492401369531" expanded="true" signature="32526:32784" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+                <marker date="1492401369531" expanded="true" signature="34690:34806" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1492401369531" expanded="true" signature="35035:35199" placeholder="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1492401369531" expanded="true" signature="36800:36919" placeholder="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+                <marker date="1492401369531" expanded="true" signature="38758:38914" placeholder="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1492401369531" expanded="true" signature="40762:40941" placeholder="SELECT ext_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+                <marker date="1492401369531" expanded="true" signature="70230:70599" placeholder="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+                <marker date="1492401369531" expanded="true" signature="71170:71539" placeholder="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+                <marker date="1492401369531" expanded="true" signature="75091:75509" placeholder="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+                <marker date="1492401369531" expanded="true" signature="76445:76563" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+                <marker date="1492401369531" expanded="true" signature="78114:78186" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('products')}" />
+                <marker date="1492401369531" expanded="true" signature="78282:78369" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+                <marker date="1492401369531" expanded="true" signature="79777:80050" placeholder="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="722" column="137" selection-start-line="722" selection-start-column="137" selection-end-line="722" selection-end-column="137" />
+              <folding>
+                <marker date="1492405786463" expanded="true" signature="790:885" placeholder="SELECT rank_... ${$ecs-&gt;table('user_rank')}" />
+                <marker date="1492405786463" expanded="true" signature="2918:3031" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1492405786463" expanded="true" signature="5580:5682" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1492405786463" expanded="true" signature="6423:6518" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+                <marker date="1492405786463" expanded="true" signature="10543:10656" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1492405786463" expanded="true" signature="12238:12314" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="14584:14686" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1492405786463" expanded="true" signature="15193:15303" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+                <marker date="1492405786463" expanded="true" signature="15609:15752" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+                <marker date="1492405786463" expanded="true" signature="17226:17291" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="19403:19475" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="20284:20372" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="22331:22419" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="23385:23461" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1492405786463" expanded="true" signature="26002:26122" placeholder="SELECT min_p... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+                <marker date="1492405786463" expanded="true" signature="26846:26867" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('users')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="苗高林" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="develop" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user.php" />
+        <option value="$PROJECT_DIR$/includes/lib_passport.php" />
+        <option value="$PROJECT_DIR$/admin/templates/role_list.htm" />
+        <option value="$PROJECT_DIR$/admin/role.php" />
+        <option value="$PROJECT_DIR$/admin/templates/role_info.htm" />
+        <option value="$PROJECT_DIR$/admin/templates/privilege_allot.htm" />
+        <option value="$PROJECT_DIR$/includes/cls_captcha.php" />
+        <option value="$PROJECT_DIR$/includes/cls_template.php" />
+        <option value="$PROJECT_DIR$/admin/templates/visit_sold.htm" />
+        <option value="$PROJECT_DIR$/includes/cls_image.php" />
+        <option value="$PROJECT_DIR$/admin/sms_url.php" />
+        <option value="$PROJECT_DIR$/admin/shop_config.php" />
+        <option value="$PROJECT_DIR$/admin/templates/shop_config_form.htm" />
+        <option value="$PROJECT_DIR$/admin/includes/cls_sql_dump.php" />
+        <option value="$PROJECT_DIR$/admin/sitemap.php" />
+        <option value="$PROJECT_DIR$/mobile/languages/zh_cn/common.php" />
+        <option value="$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/index.dwt" />
+        <option value="$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/library/page_footer.lbi" />
+        <option value="$PROJECT_DIR$/admin/js/listtable.js" />
+        <option value="$PROJECT_DIR$/includes/lib_common.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/integrate.php" />
+        <option value="$PROJECT_DIR$/languages/zh_cn/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/templates/users_list.htm" />
+        <option value="$PROJECT_DIR$/includes/inc_constant.php" />
+        <option value="$PROJECT_DIR$/a/11" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1912" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05363200-063e-4cb8-9e0b-768e3225844b" name="Default" comment="" />
+      <created>1492228161810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492228161810</updated>
+      <workItem from="1492228168026" duration="9677000" />
+      <workItem from="1492321060314" duration="4685000" />
+      <workItem from="1492333343473" duration="1197000" />
+      <workItem from="1492341118790" duration="9339000" />
+      <workItem from="1492362790924" duration="2436000" />
+      <workItem from="1492398021543" duration="10276000" />
+    </task>
+    <task id="LOCAL-00001" summary="修复构造函数位置">
+      <created>1492363108422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492363108422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="(1)将/js文件夹下的jquery由1.3升为1.7.2&#10;(2)将/mobile/themsmobile/68ecshopcom_mobile/index.dwt的jquery.js引用变为jquery.min.js引用">
+      <created>1492400541003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492400541003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="会员列表mobile_phone(手机号)显示">
+      <created>1492406416444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492406416444</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加检测手机号函数">
+      <created>1492406988947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492406988947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37610000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1912" height="1092" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13185655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复构造函数位置" />
+    <MESSAGE value="(1)将/js文件夹下的jquery由1.3升为1.7.2&#10;(2)将/mobile/themsmobile/68ecshopcom_mobile/index.dwt的jquery.js引用变为jquery.min.js引用" />
+    <MESSAGE value="会员列表mobile_phone(手机号)显示" />
+    <MESSAGE value="添加检测手机号函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加检测手机号函数" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/wap_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cls_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="534" column="26" selection-start-line="534" selection-start-column="26" selection-end-line="534" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/templates/index.wml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cls_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="677" column="11" selection-start-line="677" selection-start-column="11" selection-end-line="677" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sms_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/shop_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shop_config.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shopinfo_info.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shopinfo_list.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shop_config_form.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sitemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/cls_sql_dump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11231">
+          <caret line="477" column="11" selection-start-line="477" selection-start-column="11" selection-end-line="477" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5427">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/goods_batch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="549" column="58" selection-start-line="549" selection-start-column="56" selection-end-line="549" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/shopping_flow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/shop_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5184">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/languages/zh_cn/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/includes/fckeditor/editor/js/fckeditorcode_ie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="78" column="1177" selection-start-line="78" selection-start-column="1177" selection-end-line="78" selection-end-column="1177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/library/member_info.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/themesmobile/68ecshopcom_mobile/library/page_footer.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cls_captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+          <folding>
+            <marker date="1418194820000" expanded="true" signature="2805:2872" placeholder="SELECT value... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1418194820000" expanded="true" signature="4313:4414" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820000" expanded="true" signature="7566:7668" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820000" expanded="true" signature="8483:8578" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1418194820000" expanded="true" signature="9992:10071" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="15753:15854" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820000" expanded="true" signature="18185:18287" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820000" expanded="true" signature="18730:18840" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+            <marker date="1418194820000" expanded="true" signature="19146:19289" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1418194820000" expanded="true" signature="22511:22641" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="28493:28572" placeholder="SELECT COUNT... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="33475:33549" placeholder="SELECT addre... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="36582:36717" placeholder="SELECT COUNT... ${$ecs-&gt;table('collect_goods')}" />
+            <marker date="1418194820000" expanded="true" signature="37555:37655" placeholder="DELETE FROM " />
+            <marker date="1418194820000" expanded="true" signature="38726:38864" placeholder="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820000" expanded="true" signature="38902:39003" placeholder="SELECT * FRO... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="39124:39294" placeholder="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820000" expanded="true" signature="40005:40110" placeholder="SELECT COUNT... ${$ecs-&gt;table('comment')}" />
+            <marker date="1418194820000" expanded="true" signature="46861:46991" placeholder="SELECT COUNT... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1418194820000" expanded="true" signature="47320:47483" placeholder="SELECT * FRO... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1418194820000" expanded="true" signature="48657:48783" placeholder="SELECT COUNT... ${$ecs-&gt;table('user_account')}" />
+            <marker date="1418194820000" expanded="true" signature="55084:55168" placeholder="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+            <marker date="1418194820000" expanded="true" signature="57753:57894" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('collect_goods')}" />
+            <marker date="1418194820000" expanded="true" signature="58182:58345" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('collect_goods')}... " />
+            <marker date="1418194820000" expanded="true" signature="59015:59106" placeholder="SELECT user_... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820000" expanded="true" signature="59410:59493" placeholder="DELETE FROM " />
+            <marker date="1418194820000" expanded="true" signature="59769:59859" placeholder="DELETE FROM " />
+            <marker date="1418194820000" expanded="true" signature="61276:61356" placeholder="SELECT user_... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="68503:68582" placeholder="SELECT COUNT... ${$ecs-&gt;table('user_bonus')}" />
+            <marker date="1418194820000" expanded="true" signature="70068:70144" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="70904:71256" placeholder="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="71280:71785" placeholder="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="72630:73017" placeholder="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="73042:73575" placeholder="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="77744:77814" placeholder="SELECT * FRO... ${$ecs-&gt;table('email_list')}" />
+            <marker date="1418194820000" expanded="true" signature="77949:78044" placeholder="INSERT INTO ${$ecs-&gt;table('email_list')}... " />
+            <marker date="1418194820000" expanded="true" signature="80875:80942" placeholder="DELETE FROM " />
+            <marker date="1418194820000" expanded="true" signature="82300:82466" placeholder="SELECT order... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820000" expanded="true" signature="84830:84927" placeholder="SELECT shipp... ${$ecs-&gt;table('shipping')}" />
+            <marker date="1418194820000" expanded="true" signature="86390:86500" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="90225:90334" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="93337:93447" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820000" expanded="true" signature="95250:95492" placeholder="INSERT INTO ${$ecs-&gt;table('account_log')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1289">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/lib_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1148" column="9" selection-start-line="1148" selection-start-column="9" selection-end-line="1148" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/user_msg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/user_account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
+          <folding>
+            <marker date="1334114180000" expanded="true" signature="2563:2783" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('admin_log')}... " />
+            <marker date="1334114180000" expanded="true" signature="4131:4216" placeholder="SELECT id FR... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1334114180000" expanded="true" signature="4268:4396" placeholder="INSERT INTO ${$ecs-&gt;table('shop_config')}... " />
+            <marker date="1334114180000" expanded="true" signature="5791:5909" placeholder="SELECT type_... ${$GLOBALS['ecs']-&gt;table('bonus_type')}" />
+            <marker date="1334114180000" expanded="true" signature="6369:6412" placeholder="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1334114180000" expanded="true" signature="6917:7028" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1334114180000" expanded="true" signature="11484:11598" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1334114180000" expanded="true" signature="12605:12696" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1334114180000" expanded="true" signature="13206:13290" placeholder="SELECT pay_i... ${$GLOBALS['ecs']-&gt;table('payment')}" />
+            <marker date="1334114180000" expanded="true" signature="16913:17003" placeholder="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1334114180000" expanded="true" signature="19039:19186" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1334114180000" expanded="true" signature="19303:19406" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1334114180000" expanded="true" signature="19584:19712" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1334114180000" expanded="true" signature="20146:20271" placeholder="SELECT suppl... ${$GLOBALS['ecs']-&gt;table(&quot;suppliers&quot;)}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <marker date="1334114184000" expanded="true" signature="14680:14690" placeholder="..." />
+            <marker date="1334114184000" expanded="true" signature="16540:16577" placeholder="..." />
+            <marker date="1334114184000" expanded="true" signature="16707:16744" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/integrate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="250" column="49" selection-start-line="250" selection-start-column="49" selection-end-line="250" selection-end-column="49" />
+          <folding>
+            <marker date="1492152092679" expanded="true" signature="5865:6025" placeholder="INSERT INTO ${$this-&gt;table($this-&gt;user_table)}... " />
+            <marker date="1492152092679" expanded="true" signature="9306:9372" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1492152092679" expanded="true" signature="9808:9866" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="10006:10078" placeholder="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1492152092679" expanded="true" signature="10301:10364" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="10486:10550" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="10687:10753" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="10864:10930" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11045:11106" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11219:11284" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11397:11460" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11573:11638" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11753:11809" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="11922:11986" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="12242:12299" placeholder="DELETE FROM " />
+            <marker date="1492152092679" expanded="true" signature="16807:16912" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1492152092679" expanded="true" signature="17548:17660" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1492152092679" expanded="true" signature="20138:20466" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('users')}... " />
+            <marker date="1492152092679" expanded="true" signature="20537:20919" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('users')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/listtable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="722" column="137" selection-start-line="722" selection-start-column="137" selection-end-line="722" selection-end-column="137" />
+          <folding>
+            <marker date="1492405786463" expanded="true" signature="790:885" placeholder="SELECT rank_... ${$ecs-&gt;table('user_rank')}" />
+            <marker date="1492405786463" expanded="true" signature="2918:3031" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1492405786463" expanded="true" signature="5580:5682" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1492405786463" expanded="true" signature="6423:6518" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1492405786463" expanded="true" signature="10543:10656" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1492405786463" expanded="true" signature="12238:12314" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="14584:14686" placeholder="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1492405786463" expanded="true" signature="15193:15303" placeholder="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+            <marker date="1492405786463" expanded="true" signature="15609:15752" placeholder="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1492405786463" expanded="true" signature="17226:17291" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="19403:19475" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="20284:20372" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="22331:22419" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="23385:23461" placeholder="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1492405786463" expanded="true" signature="26002:26122" placeholder="SELECT min_p... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1492405786463" expanded="true" signature="26846:26867" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('users')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/users_list.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/inc_constant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5219">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding>
+            <marker date="1492401369531" expanded="true" signature="4425:4566" placeholder="SELECT regio... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1492401369531" expanded="true" signature="4806:4911" placeholder="SELECT confi... ${$GLOBALS['ecs']-&gt;table('shipping_area')}" />
+            <marker date="1492401369531" expanded="true" signature="15296:15385" placeholder="SELECT code,... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+            <marker date="1492401369531" expanded="true" signature="19369:19461" placeholder="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1492401369531" expanded="true" signature="21434:21617" placeholder="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+            <marker date="1492401369531" expanded="true" signature="24128:24314" placeholder="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('favourable_activity')}" />
+            <marker date="1492401369531" expanded="true" signature="25053:25160" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1492401369531" expanded="true" signature="29517:29655" placeholder="SELECT templ... ${$GLOBALS['ecs']-&gt;table('mail_templates')}" />
+            <marker date="1492401369531" expanded="true" signature="30267:30698" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('order_action')}... " />
+            <marker date="1492401369531" expanded="true" signature="30463:30698" placeholder="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1492401369531" expanded="true" signature="32298:32486" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1492401369531" expanded="true" signature="32526:32784" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1492401369531" expanded="true" signature="34690:34806" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1492401369531" expanded="true" signature="35035:35199" placeholder="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1492401369531" expanded="true" signature="36800:36919" placeholder="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1492401369531" expanded="true" signature="38758:38914" placeholder="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1492401369531" expanded="true" signature="40762:40941" placeholder="SELECT ext_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+            <marker date="1492401369531" expanded="true" signature="70230:70599" placeholder="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1492401369531" expanded="true" signature="71170:71539" placeholder="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1492401369531" expanded="true" signature="75091:75509" placeholder="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+            <marker date="1492401369531" expanded="true" signature="76445:76563" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1492401369531" expanded="true" signature="78114:78186" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1492401369531" expanded="true" signature="78282:78369" placeholder="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1492401369531" expanded="true" signature="79777:80050" placeholder="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

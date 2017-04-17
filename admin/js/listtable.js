@@ -22,7 +22,6 @@ listTable.url += "?is_ajax=1";
 listTable.edit = function(obj, act, id)
 {
   var tag = obj.firstChild.tagName;
-
   if (typeof(tag) != "undefined" && tag.toLowerCase() == "input")
   {
     return;
