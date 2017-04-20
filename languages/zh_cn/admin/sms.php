@@ -126,6 +126,7 @@ $_LANG['server_errors'][8] = '无效的XML文件。';//ERROR_INVALID_XML_FILE
 $_LANG['server_errors'][9] = '无效的节点名字。';//ERROR_INVALID_NODE_NAME
 $_LANG['server_errors'][10] = '存储失败。';//ERROR_CANT_STORE
 $_LANG['server_errors'][11] = '短信功能尚未激活。';//ERROR_INVALID_PASSPORT
+$_LANG['server_errors'][12] = '短信宝账号和密码没有填写。';
 
 /* 客户端JS语言项 */
 //--注册或启用

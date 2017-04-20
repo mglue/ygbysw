@@ -1,24 +1,18 @@
 <?php
-
 /**
- * ECSHOP 短信模块 之 模型（类库）
- * ============================================================================
- * 版权所有 2005-2010 上海商派网络科技有限公司，并保留所有权利。
- * 网站地址: http://www.ecshop.com；
- * ----------------------------------------------------------------------------
- * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
- * 使用；不允许对程序代码以任何形式任何目的的再发布。
- * ============================================================================
- * $Author: douqinghua $
- * $Id: cls_sms.php 17155 2010-05-06 06:29:05Z douqinghua $
+ * <短信宝www.smsbao.com>短信模块
+ * Created by PhpStorm.
+ * User: 苗高林
+ * Date: 2017/4/20
+ * Time: 19:46
  */
+
 
 if (!defined('IN_ECS'))
 {
     die('Hacking attempt');
 }
-define('SOURCE_TOKEN', 'b11983d30cb6821158744d5d065d0f70');
-define('SOURCE_ID', '620386');
+
 require_once(ROOT_PATH . 'includes/cls_transport.php');
 require_once(ROOT_PATH . 'includes/shopex_json.php');
 
@@ -32,10 +26,10 @@ class sms
      * @var     array       $api_urls
      */
     var $api_urls   = array(
-                            'info'              =>      'http://api.sms.shopex.cn',
-                            'send'              =>      'http://api.sms.shopex.cn',
-                            'servertime'        =>      'http://webapi.sms.shopex.cn'
-    
+        'info'              =>      'http://api.smsbao.com/sms',
+        'send'              =>      'http://api.smsbao.com/sms',
+        'servertime'        =>      'http://api.smsbao.com/sms'
+
     );
     /**
      * 存放MYSQL对象
@@ -70,7 +64,7 @@ class sms
      * @var     array       $errors
      */
     var $errors  = array('api_errors'       => array('error_no' => -1, 'error_msg' => ''),
-                         'server_errors'    => array('error_no' => -1, 'error_msg' => ''));
+        'server_errors'    => array('error_no' => -1, 'error_msg' => ''));
 
     /**
      * 构造函数
@@ -99,25 +93,25 @@ class sms
         $this->t = new transport(-1, -1, -1, false);
         $this->json    = new Services_JSON;
     }
-   
-     /* 发送短消息
-     *
-     * @access  public
-     * @param   string  $phone          要发送到哪些个手机号码，传的值是一个数组
-     * @param   string  $msg            发送的消息内容
-     */
+
+    /* 发送短消息
+    *
+    * @access  public
+    * @param   string  $phone          要发送到哪些个手机号码，传的值是一个数组
+    * @param   string  $msg            发送的消息内容
+    */
     function send($phones,$msg,$send_date = '', $send_num = 1,$sms_type='',$version='1.0')
     {
-       
+
         /* 检查发送信息的合法性 */
-        $contents=$this->get_contents($phones, $msg);  
+        $contents=$this->get_contents($phones, $msg);
 
         if(!$contents)
         {
             $this->errors['server_errors']['error_no'] = 3;//发送的信息有误
             return false;
         }
-        
+
         $login_info = $this->getSmsInfo();
         if (!$login_info)
         {
@@ -125,16 +119,8 @@ class sms
 
             return false;
         }
-        else
-        {
-            if($login_info['info']['account_info']['active']!='1')
-            {
-                $this->errors['server_errors']['error_no'] = 11;//短信功能没有激活
-                return false;
-            }
-            
-        }
-         /* 获取API URL */
+
+        /* 获取API URL */
         $sms_url = $this->get_url('send');
 
         if (!$sms_url)
@@ -144,74 +130,30 @@ class sms
             return false;
         }
 
-        $t_contents=array();
-        if(count($contents)>1)
+        foreach ($contents as $key=>$val)
         {
-            foreach ($contents as $key=>$val)
-            {
-                $t_contents['0']['phones']=$val['phones'];
-                $t_contents['0']['content']=$val['content'];
-                $send_str['contents']= $this->json->encode($t_contents);
-                $send_str['certi_app']='sms.send';
-                $send_str['entId']=$GLOBALS['_CFG']['ent_id'];
-                $send_str['entPwd']=$GLOBALS['_CFG']['ent_ac'];
-                $send_str['source']=SOURCE_ID;
+            $send_str['u'] = $login_info['sms_shop_mobile'];//短信宝账号
+            $send_str['p'] = md5($login_info['sms_shop_pwd']);//短信宝密码
+            $send_str['m'] = $val['phones'];
+            $send_str['c'] = $login_info['sms_sign'].$val['content'];
 
-                $send_str['sendType'] = 'fan-out';
-                $send_str['use_backlist'] = '1';
-                $send_str['version'] = $version;
-                $send_str['format']='json'; 
-                $send_str['timestamp'] = $this->getTime(); 
-                $send_str['certi_ac']=$this->make_shopex_ac($send_str,SOURCE_TOKEN);
-                $sms_url= $this->get_url('send');
-                $arr = json_decode($send_str['contents'],true);
-                /* 发送HTTP请求 */
-                $response = $this->t->request($sms_url, $send_str,'POST');
-                $result = $this->json->decode($response['body'], true);
-                sleep(1);
-            }
-        }
-        else
-        {
-            if(strlen($contents['0']['phones'])>20)
-            {
-                $send_str['sendType'] = 'fan-out';
-            }
-            else
-            {
-                 $send_str['sendType'] = 'notice';
-            }
-            $send_str['contents']= $this->json->encode($contents);
-            $send_str['certi_app']='sms.send';
-            $send_str['entId']=$GLOBALS['_CFG']['ent_id'];
-            $send_str['entPwd']=$GLOBALS['_CFG']['ent_ac'];
-            $send_str['license']='111111';
-            $send_str['source']=SOURCE_ID;
-
-            $send_str['use_backlist'] = '1';
-            $send_str['version'] = $version;
-            $send_str['format']='json'; 
-            $send_str['timestamp'] = $this->getTime(); 
-            $send_str['certi_ac']=$this->make_shopex_ac($send_str,SOURCE_TOKEN);
             $sms_url= $this->get_url('send');
-            $arr = json_decode($send_str['contents'],true);
             /* 发送HTTP请求 */
-            $response = $this->t->request($sms_url, $send_str,'POST');
-            $result = $this->json->decode($response['body'], true);
+            $send_url = $sms_url.'?'.http_build_query($send_str);
+            $result =file_get_contents($send_url) ;
+            sleep(1);
         }
-        if($result['res'] == 'succ')
-        {
-            return true;
-        }
-        elseif($result['res'] == 'fail')
-        {
-            return false;
-        }
-       
-    }
-   
 
-    
+       if($result == 0){ //返回0表示无错误
+           echo $this->getErrorMsg($result);
+           return true;
+       }else{
+           return false;
+       }
+    }
+
+
+
 
     /**
      * 检测启用短信服务需要的信息
@@ -276,41 +218,34 @@ class sms
     function get_admin_email()
     {
         $sql = 'SELECT `email` FROM ' . $this->ecs->table('admin_user') . " WHERE `user_id` = '" . $_SESSION['admin_id'] . "'";
-         $email = $this->db->getOne($sql);
+        $email = $this->db->getOne($sql);
 
-         if (empty($email))
-         {
+        if (empty($email))
+        {
             return false;
-         }
+        }
 
-         return $email;
+        return $email;
     }
     //用户短信账户信息获取
-    function getSmsInfo($certi_app='sms.info',$version='1.0', $format='json'){
-        $send_str['certi_app'] = $certi_app;
-        $send_str['entId'] = $GLOBALS['_CFG']['ent_id'];
-        $send_str['entPwd'] = $GLOBALS['_CFG']['ent_ac'];
-        $send_str['source'] = SOURCE_ID;
-        $send_str['version'] = $version;
-        $send_str['format'] = $format;
-        $send_str['timestamp'] = $this->getTime();
-        $send_str['certi_ac'] = $this->make_shopex_ac($send_str,SOURCE_TOKEN);
-        $sms_url = $this->get_url('info');
-        $response = $this->t->request($sms_url, $send_str,'POST');
-        $result = $this->json->decode($response['body'],true);
-        if($result['res'] == 'succ')
-        {
-            return $result;
+    function getSmsInfo(){
+        $sql = 'SELECT `code`, `value`
+                FROM ' . $this->ecs->table('shop_config') . "
+                WHERE `code` in ('sms_shop_pwd', 'sms_shop_mobile', 'sms_sign')";
+        $sms_account = $this->db->getAll($sql);
+        $rows = array();
+        foreach ($sms_account as $val){
+            $rows[$val['code']] = $val['value'];
         }
-        elseif($result['res'] == 'fail')
-        {
-            return false;
+        if(empty($rows)){
+            $this->errors['server_errors']['error_no'] = 12;//短信宝账号和密码没有填写
         }
+        return $rows;
     }
-    
+
     //检查手机号和发送的内容并生成生成短信队列
-     function get_contents($phones,$msg)
-     {
+    function get_contents($phones,$msg)
+    {
         if (empty($phones) || empty($msg))
         {
             return false;
@@ -318,67 +253,48 @@ class sms
         $msg.= $GLOBALS['_CFG']['default_sms_sign'];
 
         $phone_key=0;
-        $i=0;
         $phones=explode(',',$phones);
         foreach($phones as $key => $value)
         {
-             if($i<200)
-             {
-                $i++;
-             }
-             else
-             {
-               $i=0;
-               $phone_key++;
-             }
-             if($this->is_moblie($value))
-             {
+
+            if($this->is_moblie($value))
+            {
                 $phone[$phone_key][]=$value;
-             }
-             else
-             {
-                 $i--;
-             }
-         }
-         if(!empty($phone))
-         {
-             foreach($phone as $phone_key => $val)
-             {
-                   if (EC_CHARSET != 'utf-8')
-                    {
-                        $phone_array[$phone_key]['phones']=implode(',',$val);
-                        $phone_array[$phone_key]['content']=iconv('gb2312','utf-8',$msg);
-                    }
-                  else
-                   {
-                        $phone_array[$phone_key]['phones']=implode(',',$val);
-                        $phone_array[$phone_key]['content']=$msg;
-                   }
-                  
-             }
-             return $phone_array;
-         }
-         else
-         {
-            return false; 
-         }
-         
-     }
-    
-    //获得服务器时间
-    function getTime(){
-        $Tsend_str['certi_app'] = 'sms.servertime';
-        $Tsend_str['version'] = '1.0' ;
-        $Tsend_str['format'] = 'json' ;
-        $Tsend_str['certi_ac'] = $this->make_shopex_ac($Tsend_str,'SMS_TIME');
-        $sms_url = $this->get_url('servertime');
-        $response = $this->t->request($sms_url, $Tsend_str,'POST');
-        
-        $result = $this->json->decode($response['body'], true);
-        return $result['info'];
-        
+            }
+            else
+            {
+                $phone_key--;
+            }
+            $phone_key++;
+        }
+
+        if(!empty($phone))
+        {
+            foreach($phone as $phone_key => $val)
+            {
+                if (EC_CHARSET != 'utf-8')
+                {
+                    $phone_array[$phone_key]['phones']=implode(',',$val);
+                    $phone_array[$phone_key]['content']=iconv('gb2312','utf-8',$msg);
+                }
+                else
+                {
+                    $phone_array[$phone_key]['phones']=implode(',',$val);
+                    $phone_array[$phone_key]['content']=$msg;
+                }
+
+            }
+            return $phone_array;
+        }
+        else
+        {
+            return false;
+        }
+
     }
-     /**
+
+
+    /**
      * 返回指定键名的URL
      *
      * @access  public
@@ -402,23 +318,23 @@ class sms
      */
     function is_moblie($moblie)
     {
-       return  preg_match("/^0?1((3|8)[0-9]|5[0-35-9]|4[57])\d{8}$/", $moblie);
+        return  preg_match("/^1[34578]\d{9}$/", $moblie);
     }
-   
+
     //加密算法
     function make_shopex_ac($temp_arr,$token)
     {
-       ksort($temp_arr);
-       $str = '';
-       foreach($temp_arr as $key=>$value)
-       {
-            if($key!='certi_ac') 
+        ksort($temp_arr);
+        $str = '';
+        foreach($temp_arr as $key=>$value)
+        {
+            if($key!='certi_ac')
             {
-               $str.= $value;
+                $str.= $value;
             }
         }
-       return strtolower(md5($str.strtolower(md5($token))));
-     }
+        return strtolower(md5($str.strtolower(md5($token))));
+    }
     function base_encode($str)
     {
         $str = base64_encode($str);
@@ -427,12 +343,30 @@ class sms
     function pattern()
     {
         return array(
-        '+'=>'_1_',
-        '/'=>'_2_',
-        '='=>'_3_',
+            '+'=>'_1_',
+            '/'=>'_2_',
+            '='=>'_3_',
         );
     }
-    
+
+    /**  返回错误消息
+     * @param $status 状态吗
+     * @return string
+     */
+    function getErrorMsg($status){
+        $statusStr = array(
+            "0" => "短信发送成功",
+            "-1" => "参数不全",
+            "-2" => "服务器空间不支持,请确认支持curl或者fsocket，联系您的空间商解决或者更换空间！",
+            "30" => "密码错误",
+            "40" => "账号不存在",
+            "41" => "余额不足",
+            "42" => "帐户已过期",
+            "43" => "IP地址限制",
+            "50" => "内容含有敏感词"
+        );
+        return $statusStr[$status];
+    }
 }
 
 ?>

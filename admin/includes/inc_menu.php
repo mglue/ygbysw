@@ -138,7 +138,7 @@ $modules['14_school']['04_school_c']      = 'http://bbs.68ecshop.com/forum.php';
 
 //$modules['15_sms']['02_sms_my_info']                = 'sms.php?act=display_my_info';
 $modules['15_sms']['03_sms_send']                   = 'sms.php?act=display_send_ui';
-$modules['15_sms']['04_sms_sign']                   = 'sms.php?act=sms_sign';
+//$modules['15_sms']['04_sms_sign']                   = 'sms.php?act=sms_sign';
 //$modules['15_sms']['04_sms_charge']                 = 'sms.php?act=display_charge_ui';
 //$modules['15_sms']['05_sms_send_history']           = 'sms.php?act=display_send_history_ui';
 //$modules['15_sms']['06_sms_charge_history']         = 'sms.php?act=display_charge_history_ui';
